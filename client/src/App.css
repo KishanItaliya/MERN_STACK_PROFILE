@@ -1,0 +1,446 @@
+/* Navbar */
+.nav-logo {
+  height: 40px;
+  width: 30px;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+.nav-icon {
+  padding: 5px;
+  height: 28px !important;
+  width: 28px !important;
+  background-color: #fff;
+}
+
+/* LogIn */
+.login-form-container {
+  display: flex;
+}
+
+.login-form {
+  flex: 2;
+  align-items: center;
+}
+
+/* LOGIN IMAGE */
+.signin-image {
+  flex: 1;
+  margin-right: 15px;
+}
+
+.signin-image > figure > img {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+.signin-image-link {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.signin-image-link:hover {
+  text-decoration: none;
+}
+
+/* SignUp */
+
+.signup-content {
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-form {
+  padding: 30px;
+  border: 1px solid #fff !important;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+}
+
+.register-form-container {
+  display: flex;
+}
+
+.register-form {
+  flex: 2;
+  margin-right: 15px;
+}
+
+/* SIGNUP IMAGE */
+.signup-image {
+  flex: 1;
+}
+
+.signup-image > figure > img {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+.signup-image-link {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.signup-image-link:hover {
+  text-decoration: none;
+}
+
+/* Form */
+
+.form-group > input {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-left: 10px;
+  outline-width: 0;
+  color: #fff;
+  width: 400px;
+}
+
+.submit-container > button {
+  width: 150px;
+  height: 35px;
+  background-color: #3a9fbf !important;
+  color: #fff !important;
+  border-radius: 12px;
+  border-width: 0 !important;
+  font-weight: bold;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* CONTACT US */
+
+.contact_info_item {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.contact_info_content {
+  margin-left: 10px;
+}
+
+.contact_info_content_container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+.contact_info_content_container > .MuiSvgIcon-root {
+  color: #3a9fbf;
+}
+
+.contact_info_title {
+  font-weight: bold;
+}
+
+.contact_form {
+  margin-top: 30px;
+  padding: 40px 60px 40px 60px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+.contact_form_field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_form_field > input {
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline-width: 0;
+  color: #fff;
+}
+
+.contact_form_text > textarea {
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+}
+
+.contact_form_button {
+  display: flex;
+  align-items: center;
+}
+
+.contact_form_button > button {
+  width: 150px;
+  height: 35px;
+  background-color: #3a9fbf !important;
+  color: #fff !important;
+  border-radius: 8px;
+  border-width: 0 !important;
+  font-weight: bold;
+}
+
+/* HOME PAGE */
+.home-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.home-page > h1 > span {
+  color: #3a9fbf;
+}
+
+.home-page > p {
+  text-align: center;
+}
+
+.home-page > h1 {
+  text-align: center;
+}
+
+/* ABOUT ME PAGE */
+.emp-profile {
+  padding: 15px;
+}
+
+.about_form {
+  padding: 30px 50px 30px 50px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  box-shadow: 5px 5px 12px rgba(255, 255, 255, 0.5);
+}
+
+.profile_pic_container {
+  display: flex;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+
+.profile_pic_container > img {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+}
+
+.profile_content {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.profile-head > h5 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3a9fbf;
+}
+
+.profile-head > p > span {
+  font-weight: bold;
+}
+
+.profile-head > ul > li > a {
+  color: #3a9fbf;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.profile-btn-container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.profile-edit-btn {
+  padding: 8px;
+  border: 1px solid #fff;
+  font-size: 12px;
+  border-radius: 15px;
+  outline-width: 0;
+  color: #fff;
+  width: 80px;
+  background-color: #3a9fbf;
+  font-weight: bold;
+}
+
+.profile-work {
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.profile-work > a {
+  color: #3a9fbf;
+}
+
+.profile-work > a:hover {
+  text-decoration: none;
+}
+
+.about-info {
+  color: #fff;
+}
+
+.about-info-text {
+  color: #3a9fbf;
+}
+
+/* LARGE DEVICE QUERIES */
+
+@media only screen and (max-width: 1198px) and (min-width: 992px) {
+  .contact_form_field {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact_form_field > input {
+    margin-top: 8px;
+  }
+
+  .contact_form {
+    margin-top: 10px;
+  }
+
+  .profile_pic_container > img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile_content {
+    margin-left: 20px !important;
+  }
+}
+
+/* TABLET QUERIES */
+
+@media only screen and (max-width: 992px) {
+  .navbar-collapse {
+    z-index: 25;
+  }
+
+  .navbar-nav {
+    background-color: #f6f6f6;
+  }
+
+  .navbar-collapse ul {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .navbar-collapse ul li {
+    margin-right: 0 !important;
+  }
+
+  .form-group > input {
+    width: 275px;
+  }
+
+  .register-form-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .register-form {
+    justify-content: center;
+  }
+
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-form {
+    justify-content: center;
+  }
+
+  .contact_form_field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_form_field > input {
+    margin-top: 8px;
+  }
+
+  .contact_form {
+    margin-top: 10px;
+    padding: 20px 30px 20px 30px;
+  }
+
+  .profile-btn-container {
+    margin-left: 35px !important;
+  }
+
+  .profile_pic_container > img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-edit-btn {
+    margin-top: 15px;
+  }
+
+  .profile_content {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .tab-pane {
+    margin-left: 15px !important;
+  }
+}
+
+/* PHONE QUERIES */
+
+@media only screen and (max-width: 768px) and (min-width: 512px) {
+  .tab-pane {
+    margin-left: 55px !important;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .form-group > input {
+    width: 175px;
+  }
+
+  .profile-btn-container {
+    margin-left: 5px !important;
+  }
+
+  .profile_pic_container > img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-edit-btn {
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+
+  .profile_content {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .tab-pane {
+    margin-left: 55px !important;
+  }
+}
